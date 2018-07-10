@@ -2,6 +2,7 @@ from conans import ConanFile, CMake, tools
 import os
 import shutil
 
+
 class SigpackConan(ConanFile):
     name = "sigpack"
     version = "1.2.4"
