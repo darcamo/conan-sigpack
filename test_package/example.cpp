@@ -1,5 +1,5 @@
 #include <iostream>
-#include <sigpack.h>
+#include <sigpack/sigpack.h>
 
 using namespace arma;
 using namespace sp;
