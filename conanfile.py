@@ -12,7 +12,8 @@ class SigpackConan(ConanFile):
     description = "SigPack is a C++ signal processing library using the Armadillo library as a base."
     generators = "cmake"
     source_zip_filename = "sigpack-{0}.zip".format(version)
-    requires = ("armadillo/9.200.6@darcamo/stable",)
+    requires = ("armadillo/9.200.7@darcamo/stable",)
+    homepage = "https://sourceforge.net/projects/sigpack/files/"
 
     def source(self):
         tools.get("https://sourceforge.net/projects/sigpack/files/sigpack-{0}.zip/download".format(self.version))
